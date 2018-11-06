@@ -5,15 +5,18 @@ This project was built to scrape tables from the TeamRankings website <https://w
 
 Folder Structure
 ----------------
+.. code-block:: text
 
-TeamRankingsWebScraper/
-+-- datascrapper
-    +--  __init__.py 
-    +-- datascrapper.py 
-+-- MANIFEST.in
-+-- README.rst 
-+-- scrape_teamrankings_script.py
-+-- setup.py  
+    TeamRankingsWebScraper/
+    ├-datascrapper/
+    │ └-__init__.py
+    │ └-datascrapper.py
+    ├-MANIFEST.in
+    ├-README.in
+    ├-MANIFEST.rst
+    ├-scrape_teamrankings_script.py
+    └-setup.py
+
 
 Production
 ----------
