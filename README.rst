@@ -12,8 +12,7 @@ Folder Structure
     │ └-__init__.py
     │ └-datascrapper.py
     ├-MANIFEST.in
-    ├-README.in
-    ├-MANIFEST.rst
+    ├-README.rst
     ├-scrape_teamrankings_script.py
     └-setup.py
 
