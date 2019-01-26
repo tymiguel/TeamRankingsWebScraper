@@ -8,19 +8,19 @@ Folder Structure
 .. code-block:: text
 
     TeamRankingsWebScraper/
-    ├-datascrapper/
+    ├-package/
     │ └-__init__.py
-    │ └-datascrapper.py
+    │ └-datascraper.py
     ├-MANIFEST.in
     ├-README.rst
-    ├-scrape_teamrankings_script.py
+    ├-main.py
     └-setup.py
 
 
 Production
 ----------
 
-To run this program, call the `scrape_teamrankings_script.py` via a python interpreter (or command line), 
+To run this program, call the `main.py` via a python interpreter (or command line), 
 give it a TeamRanking URL and the program will fetch the table and convert it to a pandas dataframe. You can save the 
 resulting dataframe in a CSV to a location on your computer.
 
